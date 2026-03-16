@@ -3,6 +3,6 @@
       "target": {
         "namespace": "android_app",
         "package_name": "io.github.zagoria.twa",
-        "sha256_cert_fingerprints": ["43:D7:9A:C4:CE:6C:0D:25:F0:D8:31:DF:AD:3E:87:C1:B6:FB:0F:CA:37:62:2E:22:44:57:1E:6D:F2:A6:77:E9"]
+        "sha256_cert_fingerprints": ["3C:08:63:49:04:55:37:07:A3:19:1F:C1:68:FB:12:93:86:D6:82:38:DB:27:CF:6F:E4:A0:C5:AF:46:1D:5E:C0"]
       }
     }]

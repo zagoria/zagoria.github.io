@@ -1,2 +1,4 @@
 include:
   - .well-known
+
+render_with_liquid: false

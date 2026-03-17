@@ -4935,5 +4935,13 @@ initHome();
   <button class="meditation-end-btn" id="med-end-btn" onclick="endMeditation()">End sitting</button>
 </div>
 
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
 </body>
 </html>

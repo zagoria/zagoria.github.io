@@ -2,6 +2,7 @@
   "name": "道德經 · Dào Dé Jīng",
   "short_name": "道德經",
   "description": "The Tao Te Ching — classical Chinese text with translations",
+  "id": "io.github.zagoria.daodejing",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

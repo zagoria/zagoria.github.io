@@ -4942,6 +4942,14 @@ initHome();
       navigator.serviceWorker.register('/sw.js');
     });
   }
+
+  // Handle shortcut deep links via hash
+  window.addEventListener('DOMContentLoaded', () => {
+    const hash = window.location.hash.slice(1);
+    if (hash && ['chapters', 'thematic', 'history', 'settings', 'search-screen'].includes(hash)) {
+      showScreen(hash);
+    }
+  });
 </script>
 </body>
 </html>

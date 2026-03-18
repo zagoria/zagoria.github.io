@@ -15,7 +15,48 @@
   "categories": ["education", "books"],
   "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
   "prefer_related_applications": false,
-  "related_applications": [],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://zagoria.github.io/manifest.json",
+      "id": "io.github.zagoria.daodejing"
+    }
+  ],
+  "scope_extensions": [
+    { "origin": "https://zagoria.github.io" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Chapters",
+      "short_name": "Chapters",
+      "description": "Browse all 81 chapters of the Tao Te Ching",
+      "url": "/#chapters",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "Thematic Index",
+      "short_name": "Themes",
+      "description": "Explore chapters by Daoist theme",
+      "url": "/#thematic",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96", "type": "image/png" }]
+    },
+    {
+      "name": "History",
+      "short_name": "History",
+      "description": "Learn about the history of the text",
+      "url": "/#history",
+      "icons": [{ "src": "icons/icon-96x96.png", "sizes": "96x96", "type": "image/png" }]
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/",
+      "accept": { "text/plain": [".txt"] }
+    }
+  ],
+  "launch_handler": {
+    "client_mode": ["focus-existing", "auto"]
+  },
   "icons": [
     { "src": "icons/icon-72x72.png",   "sizes": "72x72",   "type": "image/png" },
     { "src": "icons/icon-96x96.png",   "sizes": "96x96",   "type": "image/png" },
